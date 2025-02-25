@@ -20,7 +20,7 @@ function Dominoes() {
 
   // Counting double number in an array
   let countDouble = 0;
-  for (let x of source) {
+  for (const x of source) {
     if (x[0] === x[1]) countDouble++;
   }
 
